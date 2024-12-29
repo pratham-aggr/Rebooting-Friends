@@ -70,7 +70,7 @@ These insights suggest that involving Kevin in the reboot may lead to higher rat
 ---
 ### Hypothesis Test: Proportion of Lines Spoken by Male vs. Female Main Characters in *Friends*  👩⚖️🧑
 
-In our analysis of the dataset, we observed that the proportion of lines spoken by male main characters ('Ross Geller', 'Chandler Bing', 'Joey Tribbiani') was approximately 0.51, while the proportion of lines spoken by female main characters ('Rachel Green', 'Monica Geller', 'Phoebe Buffay') was slightly lower at approximately 0.49. These proportions are quite similar but not identical.
+In our analysis of the dataset, we observed that the proportion of lines spoken by male main characters (Ross Geller, Chandler Bing, Joey Tribbiani) was approximately 0.51, while the proportion of lines spoken by female main characters (Rachel Green, Monica Geller, Phoebe Buffay) was slightly lower at approximately 0.49. These proportions are quite similar but not identical.
 
 To determine whether this difference is due to random chance or if male characters are more likely to speak a greater number of lines throughout the series, we performed a hypothesis test with the following hypotheses:
 
