@@ -98,7 +98,7 @@ We applied **Bayes' Theorem** to predict the probability that a line spoken by a
 
 By leveraging Bayes' Theorem, we were able to compute the likelihood that a given line reflects each of these emotions based on historical data from the show. This approach helped us make probabilistic predictions about the emotions conveyed in the dialogue of each character.
 
-#### Visualizing Character Emotions
+## Visualizing Character Emotions
 
 After predicting the probabilities for each emotion for the various characters, we created a **visualization of speaker emotions**. This visualization illustrates the **similarities and differences** in the types of emotions each character expresses when speaking. It provides insight into how different characters are emotionally portrayed throughout the first four seasons of the show and how they express various emotions like anger, joy, and sadness.
 
