@@ -2,14 +2,45 @@
 
 Welcome to the **Rebooting Friends** project! 
 
-## Project Overview
+### Analyzing the Impact of Directors on Episode Ratings and Viewership in *Friends*
 
-Firstly I used **Pandas** to clean and manipulate the dataset, identifying the most experienced directors and writers of *Friends* based on the number of episodes they contributed to. 
+In this analysis, we explore the contributions of the most experienced directors and writers in *Friends*, using **Pandas** for data cleaning and manipulation.
 
-- The most experienced directors are **Gary Halvorson** and **Kevin S. Bright**.
-- The most experienced writers (story & teleplay) are **Ted Cohen** and **Andrew Reich**.
+#### Most Experienced Directors and Writers
+- The most experienced directors: **Gary Halvorson** and **Kevin S. Bright**.
+- The most experienced writers: **Ted Cohen** and **Andrew Reich**.
 
-But then tried to compare  **Gary Halvorson** and **Kevin S. Bright**  based on the mean_rating of episodes. the average rating of episodes that Gary actually directed was 8.4, but the set of episodes he might have directed with additional opportunities (representing his potential as a director) could have had a higher or lower average rating. By looking at a data set of Friends episodes directed by Gary, we are only looking at a sample from a larger population. there fore i conducted bootstraping estimate each director's mean episode rating in the population based on their mean episode in the sample using bootstrapping. then I computed 99% confidence interval
+#### Comparing Gary Halvorson and Kevin S. Bright: Episode Ratings
+
+We compared the **average ratings** of episodes directed by Gary and Kevin:
+
+- Kevin's episodes have an average rating of **8.6**.
+- Gary's episodes have an average rating of **8.4**.
+
+To account for potential variability, I used **bootstrapping** to estimate the mean rating for the population of episodes each director could have directed. I also calculated the **99% confidence intervals (CIs)** for the mean ratings.
+
+The results showed that while Kevin's episodes are generally rated higher, there is some overlap in the CIs. This suggests that Gary's episodes could perform just as well under different circumstances.
+
+#### Hypothesis Testing: Are the Ratings of Kevin's and Gary's Episodes Different?
+
+To statistically compare the ratings, I conducted a hypothesis test with the following:
+
+- **Null Hypothesis (H₀)**: The mean rating of Kevin’s episodes equals the mean rating of Gary’s episodes.
+- **Alternative Hypothesis (H₁)**: The mean ratings of Kevin’s and Gary’s episodes are different.
+
+The result of the test revealed that **0 does not lie within the confidence interval for the difference in ratings** ([0.0627, 0.4682]). Therefore, we reject the null hypothesis and conclude that Kevin’s episodes are rated significantly higher than Gary’s.
+
+#### Comparing Viewership of Gary and Kevin's Episodes
+
+Applying the same bootstrapping technique to **viewership** data, I found that Kevin’s episodes also attract more views than Gary's, suggesting that Kevin’s episodes perform better both in terms of ratings and viewership.
+
+### Conclusion: Which Director is Better for the Reboot?
+
+Based on these analyses:
+- **Kevin S. Bright** directs episodes with higher ratings and more viewership than **Gary Halvorson**.
+- While there is overlap in the confidence intervals for episode ratings, Kevin's episodes tend to outperform Gary's.
+
+These insights suggest that involving Kevin in the reboot may lead to higher ratings and greater viewership. However, Gary’s episodes might still perform well under different conditions.
 
 ---
 ### Hypothesis Test: Proportion of Lines Spoken by Male vs. Female Main Characters in *Friends*  👩⚖️🧑
