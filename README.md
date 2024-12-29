@@ -93,15 +93,8 @@ To better understand the emotional dynamics between characters in *Friends*, we 
 
 #### Methodology
 
-We applied **Bayes' Theorem** to predict the probability that a line spoken by a particular character falls under one of the following emotional categories:
+We applied **Bayes' Theorem** to predict the probability that a line spoken by a particular character falls under one of the following emotional categories: **Mad**, **Joyful**, **Neutral**, **Peaceful**, **Powerful**, **Sad**, and **Scared**
 
-- **Mad**
-- **Joyful**
-- **Neutral**
-- **Peaceful**
-- **Powerful**
-- **Sad**
-- **Scared**
 
 By leveraging Bayes' Theorem, we were able to compute the likelihood that a given line reflects each of these emotions based on historical data from the show. This approach helped us make probabilistic predictions about the emotions conveyed in the dialogue of each character.
 
