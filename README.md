@@ -30,6 +30,34 @@ Given the lack of significant evidence for a gender-based disparity in line dist
 
 ---
 
+### Investigating Character Dynamics through Emotions
+
+To better understand the emotional dynamics between characters in *Friends*, we analyzed sentiment data from the first four seasons of the show. Since we only have sentiment data for certain lines during these seasons, our investigation is based on this subset of the data.
+
+#### Methodology
+
+We applied **Bayes' Theorem** to predict the probability that a line spoken by a particular character falls under one of the following emotional categories:
+
+- **Mad**
+- **Joyful**
+- **Neutral**
+- **Peaceful**
+- **Powerful**
+- **Sad**
+- **Scared**
+
+By leveraging Bayes' Theorem, we were able to compute the likelihood that a given line reflects each of these emotions based on historical data from the show. This approach helped us make probabilistic predictions about the emotions conveyed in the dialogue of each character.
+
+#### Visualizing Character Emotions
+
+After predicting the probabilities for each emotion for the various characters, we created a **visualization of speaker emotions**. This visualization illustrates the **similarities and differences** in the types of emotions each character expresses when speaking. It provides insight into how different characters are emotionally portrayed throughout the first four seasons of the show and how they express various emotions like anger, joy, and sadness.
+
+![Alt Text](reboot_friends/images/emotions.png)
+
+The visualization offers a clear representation of the emotional range and tendencies of each character, which can reveal interesting patterns about their personalities and interactions.
+
+---
+
 ### Random Episode Title Generator Inspired by *Friends*
 
 To create unique and entertaining episode titles for our reboot, we developed a tool that generates random episode titles inspired by the format used in *Friends*. In the show, episode titles follow a distinctive pattern, such as *"The One with the Morning After"* or *"The One with the Bullies"*. 
