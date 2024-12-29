@@ -9,8 +9,9 @@ Firstly I used **Pandas** to clean and manipulate the dataset, identifying the m
 - The most experienced directors are **Gary Halvorson** and **Kevin S. Bright**.
 - The most experienced writers (story & teleplay) are **Ted Cohen** and **Andrew Reich**.
 
-But then tried to compare  **Gary Halvorson** and **Kevin S. Bright**  based on the mean_rating of episodes. the average rating of episodes that Gary actually directed was 8.4, but the set of episodes he might have directed with additional opportunities (representing his potential as a director) could have had a higher or lower average rating. By looking at a data set of Friends episodes directed by Gary, we are only looking at a sample from a larger population. there fore i conducted bootstraping estimate each director's mean episode rating in the population based on their mean episode in the sample using bootstrapping. then I computed 99% confidence interval 
+But then tried to compare  **Gary Halvorson** and **Kevin S. Bright**  based on the mean_rating of episodes. the average rating of episodes that Gary actually directed was 8.4, but the set of episodes he might have directed with additional opportunities (representing his potential as a director) could have had a higher or lower average rating. By looking at a data set of Friends episodes directed by Gary, we are only looking at a sample from a larger population. there fore i conducted bootstraping estimate each director's mean episode rating in the population based on their mean episode in the sample using bootstrapping. then I computed 99% confidence interval
 
+---
 ### Hypothesis Test: Proportion of Lines Spoken by Male vs. Female Main Characters in *Friends*  👩⚖️🧑
 
 In our analysis of the dataset, we observed that the proportion of lines spoken by male main characters ('Ross Geller', 'Chandler Bing', 'Joey Tribbiani') was approximately 0.51, while the proportion of lines spoken by female main characters ('Rachel Green', 'Monica Geller', 'Phoebe Buffay') was slightly lower at approximately 0.49. These proportions are quite similar but not identical.
@@ -55,6 +56,43 @@ After predicting the probabilities for each emotion for the various characters, 
 ![Alt Text](reboot_friends/images/emotions.png)
 
 The visualization offers a clear representation of the emotional range and tendencies of each character, which can reveal interesting patterns about their personalities and interactions.
+
+---
+
+### Investigating the Impact of Relationships on Episode Ratings and Viewership in *Friends*
+
+In this section, we explore the relationship between episode ratings, viewership, and the presence of romantic relationships among characters in *Friends*. By performing **permutation testing**, we aim to determine whether certain factors, such as relationships between characters, influence the success of an episode in terms of viewership and ratings.
+
+#### 1. Viewership: First Half vs. Second Half of the Series
+
+We began by comparing the viewership of episodes in the first half of *Friends* (seasons 1-5) to the second half (seasons 6-10). Based on initial observations, we suspected that viewership was higher in the earlier seasons. To test this hypothesis, we performed a **permutation test** with the following hypotheses:
+
+- **Null Hypothesis**: Viewership between the first and second halves of the series does not differ systematically; any observed difference is due to random chance.
+- **Alternative Hypothesis**: Viewership of the first half of episodes is significantly higher than that of the second half.
+
+After conducting the permutation test, we found a **p-value of 0.001**, which suggests strong evidence that viewership was indeed higher in the first half of the series compared to the second half. This indicates that the observed difference is statistically significant, and could have implications for how we plan the pacing of episodes in the reboot.
+
+#### 2. Impact of Romantic Relationships on Episode Ratings
+
+Next, we investigated whether episodes where characters are in romantic relationships tend to have higher ratings than those where characters are not in relationships. In *Friends*, there are two key couples:
+
+- **Ross and Rachel**: In a relationship from Season 2, Episode 14 to Season 3, Episode 15.
+- **Monica and Chandler**: In a relationship from Season 4, Episode 24 to Season 10, Episode 18 (the end of the show).
+
+We compared episodes featuring these couples to episodes where no characters were in a relationship. The hypotheses for our **permutation test** were:
+
+- **Null Hypothesis**: There is no difference in average episode ratings between episodes with relationships ("Relationship" group) and episodes without relationships ("Single" group).
+- **Alternative Hypothesis**: Episodes with characters in relationships have higher ratings, on average, than those without relationships.
+
+The result of the permutation test yielded a **p-value of 0.038**, suggesting that episodes featuring at least two main characters in a romantic relationship tend to have higher ratings. While this doesn't establish a causal link between relationships and higher ratings, it does indicate an association. 
+
+### Implications for the Reboot
+
+- **Viewership**: The significant difference in viewership between the first and second halves of *Friends* suggests that earlier seasons tended to attract more viewers. This insight can help guide decisions about pacing and structure for our reboot.
+  
+- **Romantic Relationships**: The association between romantic relationships and higher ratings suggests that including relationship storylines in the reboot could help boost episode ratings. However, while the data suggests an association, it doesn't prove causality, so relationship dynamics should be thoughtfully integrated into the plot.
+
+These findings will play a crucial role in shaping the direction of our reboot, as we consider how to balance character relationships, pacing, and plot development to maximize engagement and viewership.
 
 ---
 
