@@ -1,6 +1,6 @@
 # Rebooting *Friends*: A Data-Driven Blueprint for the Ultimate Reboot
 
-Welcome to the **Rebooting Friends** project! In this analysis, we leverage data-driven insights to explore various aspects of the iconic *Friends* series, aiming to inform and enhance a reboot. From examining the impact of directors on episode ratings and viewership to analyzing character dynamics and relationships, we uncover patterns and trends that can guide the creative direction of the reboot. Our approach incorporates statistical methods, machine learning techniques, and data visualization to provide actionable insights for making informed decisions about character roles, plot structure, and episode pacing. 
+Welcome to the **Rebooting Friends** project! In this analysis, we leverage data-driven insights to explore various aspects of the iconic *Friends* series, aiming to inform and enhance a reboot. From examining the impact of directors on episode ratings and viewership to analyzing character dynamics and relationships, we uncover patterns and trends that can guide the creative direction of the reboot. Our approach incorporates statistical methods, machine learning techniques, and data visualization to provide actionable insights for making informed decisions about character roles, plot structure, and episode pacing.
 
 ---
 
@@ -25,7 +25,6 @@ Welcome to the **Rebooting Friends** project! In this analysis, we leverage data
    Using linear regression, we determined that 80 episodes would strike the perfect balance between maintaining viewer interest and delivering a compelling storyline, based on patterns observed in the original series.
 
 ---
-
 
 ### Analyzing the Impact of Directors on Episode Ratings and Viewership in *Friends*
 
@@ -68,6 +67,7 @@ Based on these analyses:
 These insights suggest that involving Kevin in the reboot may lead to higher ratings and greater viewership. However, Gary’s episodes might still perform well under different conditions.
 
 ---
+
 ### Hypothesis Test: Proportion of Lines Spoken by Male vs. Female Main Characters in *Friends*  👩⚖️🧑
 
 In our analysis of the dataset, we observed that the proportion of lines spoken by male main characters (Ross Geller, Chandler Bing, Joey Tribbiani) was approximately 0.51, while the proportion of lines spoken by female main characters (Rachel Green, Monica Geller, Phoebe Buffay) was slightly lower at approximately 0.49. These proportions are quite similar but not identical.
@@ -93,8 +93,7 @@ To better understand the emotional dynamics between characters in *Friends*, we 
 
 #### Methodology
 
-We applied **Bayes' Theorem** to predict the probability that a line spoken by a particular character falls under one of the following emotional categories: **Mad**, **Joyful**, **Neutral**, **Peaceful**, **Powerful**, **Sad**, and **Scared**
-
+We applied **Bayes' Theorem** to predict the probability that a line spoken by a particular character falls under one of the following emotional categories: **Mad**, **Joyful**, **Neutral**, **Peaceful**, **Powerful**, **Sad**, and **Scared**.
 
 By leveraging Bayes' Theorem, we were able to compute the likelihood that a given line reflects each of these emotions based on historical data from the show. This approach helped us make probabilistic predictions about the emotions conveyed in the dialogue of each character.
 
@@ -133,7 +132,7 @@ We compared episodes featuring these couples to episodes where no characters wer
 - **Null Hypothesis**: There is no difference in average episode ratings between episodes with relationships ("Relationship" group) and episodes without relationships ("Single" group).
 - **Alternative Hypothesis**: Episodes with characters in relationships have higher ratings, on average, than those without relationships.
 
-The result of the permutation test yielded a **p-value of 0.038**, suggesting that episodes featuring at least two main characters in a romantic relationship tend to have higher ratings. While this doesn't establish a causal link between relationships and higher ratings, it does indicate an association. 
+The result of the permutation test yielded a **p-value of 0.038**, suggesting that episodes featuring at least two main characters in a romantic relationship tend to have higher ratings. While this doesn't establish a causal link between relationships and higher ratings, it does indicate an association.
 
 ### Implications for the Reboot
 
@@ -147,12 +146,12 @@ These findings will play a crucial role in shaping the direction of our reboot, 
 
 ### Random Episode Title Generator Inspired by *Friends*
 
-To create unique and entertaining episode titles for our reboot, we developed a tool that generates random episode titles inspired by the format used in *Friends*. In the show, episode titles follow a distinctive pattern, such as *"The One with the Morning After"* or *"The One with the Bullies"*. 
+To create unique and entertaining episode titles for our reboot, we developed a tool that generates random episode titles inspired by the format used in *Friends*. In the show, episode titles follow a distinctive pattern, such as *"The One with the Morning After"* or *"The One with the Bullies"*.
 
 Our tool works by leveraging **n-grams**, a technique in natural language processing where sequences of 𝑛 words are used to generate new text based on previously observed patterns. Specifically, we use the following approach:
 
 - **n-gram model**: We build sequences of words (n-grams) based on the episode titles and generate new titles by predicting each next word.
-- **Conditional probability**: For a given value of 𝑛, the tool generates each subsequent word based on the **previous word** in the sequence, using the conditional probability of that word appearing after the word before it.
+- **Conditional probability**: For a given value of 𝑛, the tool generates each subsequent word by considering only the **previous word** in the sequence, using the conditional probability of that word appearing after the word before it.
 
 For example, when using an **n-gram size of 2 (bigrams)**, the tool predicts each next word by considering only the **previous word**. This allows the generation of plausible and catchy titles that resemble the original *Friends* format.
 
@@ -169,10 +168,12 @@ This tool adds a fun and creative twist to the process of naming episodes and en
 
 ### How many episodes?
 In our reboot of *Friends*, I used linear regression techniques to analyze how viewership changed with the number of episodes. By examining various episode counts, I found that excitement among viewers remained high up to 30 episodes, but gradually faded as the sitcom progressed. Based on this analysis, I found that **80 episodes** would be the optimal choice for the reboot, striking a balance between maintaining viewer engagement and delivering a compelling storyline.
+
 ![Alt text](reboot_friends/images/lr.png)
+
 ## Contributions 🤝
 
-This project was developed as part of my [DSC 10](https://catalog.ucsd.edu/courses/DSC.html) course at UC San Diego. I would like to express my gratitude to the [DSC 10 team](https://dsc10.com/staff/)  for their invaluable guidance throughout this project. They provided essential insights, data sources, and helpful hints that significantly shaped my analysis and kept the project on track.
+This project was developed as part of my [DSC 10](https://catalog.ucsd.edu/courses/DSC.html) course at UC San Diego. I would like to express my gratitude to the [DSC 10 team](https://dsc10.com/staff/) for their invaluable guidance throughout this project. They provided essential insights, data sources, and helpful hints that significantly shaped my analysis and kept the project on track.
 
 The DSC 10 team also played a key role in transforming my analysis into a more accessible and user-friendly format. I am extremely grateful for their support and contributions, without which this project would not have been possible.
 
@@ -183,5 +184,3 @@ Below are links to all the resources I used in developing this project. Thanks t
 - The data for this project is sourced from [Kaggle](https://www.kaggle.com), a platform offering publicly accessible datasets, including those related to TV shows like Friends. The dataset includes details on episodes, dialogue lines, and character emotions.
 
 Dataset URL: [Kaggle Friends Dataset](https://www.kaggle.com/datasets/sujaykapadnis/friends?select=friends.csv)
-
-
