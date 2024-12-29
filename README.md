@@ -30,7 +30,29 @@ Given the lack of significant evidence for a gender-based disparity in line dist
 
 ---
 
-## How many episodes?
+### Random Episode Title Generator Inspired by *Friends*
+
+To create unique and entertaining episode titles for our reboot, we developed a tool that generates random episode titles inspired by the format used in *Friends*. In the show, episode titles follow a distinctive pattern, such as *"The One with the Morning After"* or *"The One with the Bullies"*. 
+
+Our tool works by leveraging **n-grams**, a technique in natural language processing where sequences of 𝑛 words are used to generate new text based on previously observed patterns. Specifically, we use the following approach:
+
+- **n-gram model**: We build sequences of words (n-grams) based on the episode titles and generate new titles by predicting each next word.
+- **Conditional probability**: For a given value of 𝑛, the tool generates each subsequent word based on the **previous word** in the sequence, using the conditional probability of that word appearing after the word before it.
+
+For example, when using an **n-gram size of 2 (bigrams)**, the tool predicts each next word by considering only the **previous word**. This allows the generation of plausible and catchy titles that resemble the original *Friends* format.
+
+### Example Generated Titles:
+- The One with Rachel's Dream
+- The One with the Girl Who Hits Joey Speaks French
+- The One with the Birth Mother
+- The One Where They're Up All the Haste
+- The One with the Birth Mother
+
+This tool adds a fun and creative twist to the process of naming episodes and ensures that each generated title feels authentically *Friends*-inspired.
+
+---
+
+### How many episodes?
 In our reboot of *Friends*, I used linear regression techniques to analyze how viewership changed with the number of episodes. By examining various episode counts, I found that excitement among viewers remained high up to 30 episodes, but gradually faded as the sitcom progressed. Based on this analysis, I found that **80 episodes** would be the optimal choice for the reboot, striking a balance between maintaining viewer engagement and delivering a compelling storyline.
 ![Alt text](reboot_friends/images/lr.png)
 ## Contributions 🤝
