@@ -35,7 +35,7 @@ In this analysis, we explore the contributions of the most experienced directors
 
 We suspect that Kevin slightly outperforms Gary. To test this, I used **bootstrapping** to estimate the mean rating for the population of episodes each director could have directe. And, calculated the **99% confidence intervals (CIs)** for the mean ratings to assess the reliability of the results. Bootstrapping was chosen because the observed difference in ratings may be influenced by the sample I have. 
 
-![Alt text](reboot_friends/images/plots/boot&ci1.png)
+![Alt text](reboot_friends/images/plots/boot&cis1.png)
 
 The results showed that while Kevin's episodes are generally rated higher, there is some overlap in the CIs. This suggests that Gary's episodes could perform just as well under different circumstances. Therefore, we performed **hypothesis testing**, which ,however, revealed that Kevin’s episodes are rated significantly higher than that of Gary’s.
 
