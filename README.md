@@ -79,9 +79,7 @@ The visualization offers a clear representation of the emotional range and tende
 
 In this section, now we examine whether episodes featuring romantic relationships (e.g., Ross and Rachel, Monica and Chandler) had higher ratings than those without. The **permutation test** resulted in a **p-value of 0.038**, suggesting an association between relationships and higher ratings, although this does not prove causality.
 
-![Alt Text]()
-
-he association between relationships and higher ratings implies that including romantic storylines could enhance episode ratings. These findings will help shape the reboot, balancing character relationships, and plot development to maximize engagement.
+The association between relationships and higher ratings implies that including romantic storylines could enhance episode ratings. These findings will help shape the reboot, balancing character relationships, and plot development to maximize engagement.
 
 ---
 
