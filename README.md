@@ -4,24 +4,24 @@ Welcome to the **Rebooting Friends** project! In this analysis, we leverage data
 
 ---
 
-### Key Areas of Analysis:
+## Key Areas of Analysis:
 
-# Impact of Directors on Episode Ratings and Viewership 🎬⭐  
+### Impact of Directors on Episode Ratings and Viewership 🎬⭐  
 By comparing the most experienced directors, Gary Halvorson and Kevin S. Bright, we analyzed the ratings and viewership of their episodes using bootstrapping and hypothesis testing. Results showed that Kevin’s episodes generally perform better in terms of ratings and viewership, suggesting his direction could lead to greater success in a reboot.
 
-# Hypothesis Test: Gender Equality in Dialogue 👩⚖️🧑  
+### Hypothesis Test: Gender Equality in Dialogue 👩⚖️🧑  
 We tested whether male main characters speak more lines than their female counterparts. The hypothesis test showed no statistically significant difference, leading us to conclude that dialogue distribution in the reboot should be balanced between male and female characters.
 
-# Investigating Character Dynamics through Emotions 😊😢  
+### Investigating Character Dynamics through Emotions 😊😢  
 Using sentiment analysis, we explored the emotional dynamics of characters in the first four seasons. This analysis revealed the emotional range of each character, which could inform character development and interactions in the reboot.
 
-# Impact of Relationships on Episode Ratings and Viewership 💞📈  
+### Impact of Relationships on Episode Ratings and Viewership 💞📈  
 We examined how romantic relationships among characters influence episode ratings and viewership. permutation test results indicated a positive association between romantic relationships and higher ratings, suggesting their inclusion in the reboot could enhance audience engagement.
 
-# Random Episode Title Generator 🎲📜  
+### Random Episode Title Generator 🎲📜  
 To creatively generate episode titles, we developed a tool using n-grams to mimic the iconic *Friends* format. This tool provides a fun and authentic way to name episodes, ensuring they resonate with fans of the original series.
 
-# Optimal Episode Count for the Reboot 🔢🎥  
+### Optimal Episode Count for the Reboot 🔢🎥  
 Using linear regression, we determined that 80 episodes would strike the perfect balance between maintaining viewer interest and delivering a compelling storyline, based on patterns observed in the original series.
 
 ---
