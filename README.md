@@ -4,7 +4,7 @@ Welcome to the **Rebooting Friends** project! In this analysis, we leverage data
 
 ---
 
-## Key Areas of Analysis:
+## Project Overview
 
 ### Impact of Directors on Episode Ratings and Viewership 🎬⭐  
 By comparing the most experienced directors, Gary Halvorson and Kevin S. Bright, we analyzed the ratings and viewership of their episodes using bootstrapping and hypothesis testing. Results showed that Kevin’s episodes generally perform better in terms of ratings and viewership, suggesting his direction could lead to greater success in a reboot.
