@@ -35,13 +35,13 @@ In this analysis, we explore the contributions of the most experienced directors
 
 We suspect that Kevin slightly outperforms Gary. To test this, I used **bootstrapping** to estimate the mean rating for the population of episodes each director could have directe. And, calculated the **99% confidence intervals (CIs)** for the mean ratings to assess the reliability of the results. Bootstrapping was chosen because the observed difference in ratings may be influenced by the sample I have. 
 
-![Alt text]()
+![Alt text](reboot_friends/images/plots/boot&ci1.png)
 
 The results showed that while Kevin's episodes are generally rated higher, there is some overlap in the CIs. This suggests that Gary's episodes could perform just as well under different circumstances. Therefore, we performed **hypothesis testing**, which ,however, revealed that Kevin’s episodes are rated significantly higher than that of Gary’s.
 
 #### Comparing Viewership of Gary and Kevin's Episodes
 
-![Alt text]()
+![Alt text](reboot_friends/images/plots/boot&ci2.png)
 
 Applying the same bootstrapping and hypothesis testing technique to **viewership** data, I found that Kevin’s episodes also attract more views than Gary's, suggesting that Kevin’s episodes perform better both in terms of ratings and viewership.
 
@@ -69,7 +69,7 @@ By leveraging Bayes' Theorem, we were able to compute the likelihood that a give
 
 After predicting the probabilities for each emotion for the various characters, we created a **visualization of speaker emotions**. This visualization illustrates the **similarities and differences** in the types of emotions each character expresses when speaking. It provides insight into how different characters are emotionally portrayed throughout the first four seasons of the show and how they express various emotions like anger, joy, and sadness.
 
-![Alt Text](reboot_friends/images/emotions.png)
+![Alt Text](reboot_friends/images/plots/emotions.png)
 
 The visualization offers a clear representation of the emotional range and tendencies of each character, revealing interesting patterns about their personalities and interactions. This insight can help the reboot of *Friends* to better develop character arcs, enhance dynamics between characters, and create more authentic and engaging storylines.
 
@@ -78,6 +78,8 @@ The visualization offers a clear representation of the emotional range and tende
 ### Impact of Relationships on Episode Ratings and Viewership 💞📈  
 
 In this section, now we examine whether episodes featuring romantic relationships (e.g., Ross and Rachel, Monica and Chandler) had higher ratings than those without. The **permutation test** resulted in a **p-value of 0.038**, suggesting an association between relationships and higher ratings, although this does not prove causality.
+
+![Alt Text]()
 
 he association between relationships and higher ratings implies that including romantic storylines could enhance episode ratings. These findings will help shape the reboot, balancing character relationships, and plot development to maximize engagement.
 
@@ -110,7 +112,7 @@ In our reboot of *Friends*, we first compared the viewership of episodes in the 
 
 Building on this insight, I then used linear regression techniques to analyze how viewership changed with the number of episodes. By examining various episode counts, I found that excitement among viewers remained high up to 30 episodes but gradually faded as the sitcom progressed. Based on this analysis, I determined that **80 episodes** would be the optimal choice for the reboot, ensuring it remains fresh and engaging without overstaying its welcome, maximizing both viewer satisfaction and long-term success.
 
-![Alt text](reboot_friends/images/lr.png)
+![Alt text](reboot_friends/images/plots/lr.png)
 
 ## Contributions 🤝
 
