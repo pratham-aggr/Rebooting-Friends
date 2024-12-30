@@ -23,7 +23,6 @@ To creatively generate episode titles, we developed a tool using n-grams to mimi
 
 ### Optimal Episode Count for the Reboot 🔢🎥  
 Using linear regression, we determined that 80 episodes would strike the perfect balance between maintaining viewer interest and delivering a compelling storyline, based on patterns observed in the original series.
-
 ---
 
 ### Impact of Directors on Episode Ratings and Viewership 🎬⭐  
