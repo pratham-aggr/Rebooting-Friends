@@ -15,7 +15,7 @@ We tested whether male main characters speak more lines than their female counte
 ### Investigating Character Dynamics through Emotions 😊😢  
 Using sentiment analysis, we explored the emotional dynamics of characters in the first four seasons. This analysis revealed the emotional range of each character, which could inform character development and interactions in the reboot.
 
-## Impact of Relationships on Episode Ratings and Viewership 💞📈  
+### Impact of Relationships on Episode Ratings and Viewership 💞📈  
 We examined how romantic relationships among characters influence episode ratings and viewership. permutation test results indicated a positive association between romantic relationships and higher ratings, suggesting their inclusion in the reboot could enhance audience engagement.
 
 ### Random Episode Title Generator 🎲📜  
@@ -25,7 +25,7 @@ To creatively generate episode titles, we developed a tool using n-grams to mimi
 Using linear regression, we determined that 80 episodes would strike the perfect balance between maintaining viewer interest and delivering a compelling storyline, based on patterns observed in the original series.
 
 ---
-### Impact of Directors on Episode Ratings and Viewership 🎬⭐  
+## Impact of Directors on Episode Ratings and Viewership 🎬⭐  
 
 In this analysis, we explore the contributions of the most experienced directors and writers in *Friends*, using **Pandas** for data cleaning and manipulation.
 
