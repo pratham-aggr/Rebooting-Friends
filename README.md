@@ -106,7 +106,7 @@ This tool adds a fun and creative twist to the process of naming episodes and en
 ### Optimal Episode Count for the Reboot 🔢🎥  
 In our reboot of *Friends*, we first compared the viewership of episodes in the first half (seasons 1-5) and the second half (seasons 6-10) of the original series. We suspected that the first half would have higher viewership than the second half. To test this hypothesis, we performed a permutation test, which resulted in a p-value of 0.001, confirming that the first half of the series had significantly higher viewership than the second half.
 
-![Alt text]()
+![Alt text](reboot_friends/images/plots/1vs2.png)
 
 Building on this insight, I then used linear regression techniques to analyze how viewership changed with the number of episodes. By examining various episode counts, I found that excitement among viewers remained high up to 30 episodes but gradually faded as the sitcom progressed. Based on this analysis, I determined that **80 episodes** would be the optimal choice for the reboot, ensuring it remains fresh and engaging without overstaying its welcome, maximizing both viewer satisfaction and long-term success.
 
