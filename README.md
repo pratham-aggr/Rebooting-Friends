@@ -64,8 +64,6 @@ Given the lack of significant evidence for a gender-based disparity in line dist
 
 To better understand the emotional dynamics between characters in *Friends*, we analyzed sentiment data from the first four seasons of the show. Since we only have sentiment data for certain lines during these seasons, our investigation is based on this subset of the data.
 
-#### Methodology
-
 We applied **Bayes' Theorem** to predict the probability that a line spoken by a particular character falls under one of the following emotional categories: **Mad**, **Joyful**, **Neutral**, **Peaceful**, **Powerful**, **Sad**, and **Scared**.
 
 By leveraging Bayes' Theorem, we were able to compute the likelihood that a given line reflects each of these emotions based on historical data from the show. This approach helped us make probabilistic predictions about the emotions conveyed in the dialogue of each character.
