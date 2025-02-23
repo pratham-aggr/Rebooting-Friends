@@ -1,5 +1,7 @@
 # Rebooting *Friends*: A Data-Driven Blueprint for the Ultimate Reboot
 
+[![View Code](https://img.shields.io/badge/View%20Code-blue?style=for-the-badge)]()
+
 Welcome to the **Rebooting Friends** project! In this analysis, we leverage data-driven insights to explore various aspects of the iconic *Friends* series, aiming to inform and enhance a reboot. From examining the impact of directors on episode ratings and viewership to analyzing character dynamics and relationships, we uncover patterns and trends that can guide the creative direction of the reboot. Our approach incorporates statistical methods, machine learning techniques, and data visualization to provide actionable insights for making informed decisions about character roles, plot structure, and episode pacing.
 
 ---
