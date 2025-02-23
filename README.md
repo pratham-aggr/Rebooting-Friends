@@ -1,4 +1,4 @@
-# Rebooting *Friends* Sitcom with Data-Driven Strategies for Enhanced Engagement
+# Rebooting Sitcom *Friends* with Data-Driven Strategies for Enhanced Engagement
 
 [![View Code](https://img.shields.io/badge/View%20Code-blue?style=for-the-badge)](https://github.com/pratham-aggr/friends_reboot.git)
 
